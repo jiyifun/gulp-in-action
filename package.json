@@ -4,8 +4,11 @@
     "node": ">=4"
   },
   "config": {
-    "app": "app"
-    },
+    "app": "app",
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
   "scripts": {
     "opn": "opn \"http://www.baidu.com\"",
     "env": "",
@@ -16,6 +19,7 @@
     "babel-preset-es2015": "^6.3.13",
     "babel-register": "^6.5.2",
     "browser-sync": "^2.2.1",
+    "cz-conventional-changelog": "^1.1.6",
     "del": "^1.1.1",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.0.1",
