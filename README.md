@@ -1,5 +1,5 @@
 # stuQ
-gulp实现stuQ主页
+纯HTML，CSS实现stuQ主页
 
 #install
 ```bash
